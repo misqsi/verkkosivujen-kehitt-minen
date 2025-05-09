@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Angela's accessories</h1>      
+    <p>Everything, Everywhere & All At Once</p>
+  </div>
+</div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Deals</a></li>
+        <li><a href="#">Stores</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Your Account</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">VINTAGE JACKET</div>
+        <div class="panel-body"><img src="https://craftandglory.in/cdn/shop/files/4_82e1c7c0-8fa3-4264-9b9c-5721ee7a71e0.png?v=1742288976&width=1445" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Now only for 45€</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-danger">
+        <div class="panel-heading">VINTAGE HAT</div>
+        <div class="panel-body"><img src="https://tweedroom.com/upload/resize_cache/iblock/b89/1024_683_1a2eb99c483d1b079ad2b312947a74aed/b89ebacfaee51e85b420340cb6d1bebf.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Now only for 20€</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-success">
+        <div class="panel-heading">VINTAGE GLASSES</div>
+        <div class="panel-body"><img src="https://images.squarespace-cdn.com/content/v1/57fb51942994cab2a8f62dca/cb15df07-8eb9-44c4-8ec6-78cdc6647784/peep+eyewear%2C+vintage+80s+oversize+brown+glasses+%282%29.jpeg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Now only for 15€</div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">ORIGINAL PS1</div>
+        <div class="panel-body"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/PSX-Console-wController.png/1200px-PSX-Console-wController.png" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Now only for 99€</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">ORIGINAL NOKIA 3310</div>
+        <div class="panel-body"><img src="https://api.mtvuutiset.fi/graphql/caas/v1/media/6304902/data/72cd3d7b648d25b27dccc32088ac9255/landscape16_9/1600/flockler-image-sites630-3310-qir69badmb.jpg" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Now only for 80€</div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-primary">
+        <div class="panel-heading">ORIGINAL COMMODORE 64</div>
+        <div class="panel-body"><img src="https://media.cnn.com/api/v1/images/stellar/prod/180822105148-commodore64.jpg?q=w_3000,h_1688,x_0,y_0,c_fill" class="img-responsive" style="width:100%" alt="Image"></div>
+        <div class="panel-footer">Now only for 115€</div>
+      </div>
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <p>Online Store Copyright</p>  
+  <form class="form-inline">Get deals:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Sign Up</button>
+  </form>
+</footer>
+
+</body>
+</html>
