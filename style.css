@@ -146,3 +146,14 @@ footer {
     display: table;
     clear: both;
 }
+
+.logo-title {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo {
+    height: 60px;
+    width: auto;
+}
