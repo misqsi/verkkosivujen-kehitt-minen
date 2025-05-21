@@ -150,10 +150,21 @@ footer {
 .logo-title {
     display: flex;
     align-items: center;
-    gap: 15px;
+    justify-content: center;
+    gap: 30px;
 }
 
 .logo {
-    height: 60px;
+    height: 120px;
     width: auto;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.header-text p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
 }
