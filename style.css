@@ -20,6 +20,7 @@ nav.sidebar {
     padding: 20px;
     height: 100vh;
     box-sizing: border-box;
+    font-size: 18px;
 }
 
 nav.sidebar ul {
@@ -35,6 +36,7 @@ nav.sidebar a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
+    font-size: 18px;
 }
 
 nav.sidebar a:hover {
